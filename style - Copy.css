@@ -1,0 +1,59 @@
+
+ 
+body {
+  background-image: url("image/skz.jpg");
+  background-color:lightgreen;
+}
+
+    h1 {
+        color: green;
+        text-align: center;
+    }
+	
+	
+	
+	 ul {
+            width: -moz-fit-content;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+	 }
+
+
+        ul {
+            width: -moz-fit-content;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            color: seagreen;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: #111;
+        }
+		
+		.form {
+			background-color: seagreen;
+			padding: 20px;
+			margin-left: 40px;
+			margin-right: 40px;
+		}
+		input {
+			margin: 10px auto;
+			padding: 5px;
+		}
+		
+
+    

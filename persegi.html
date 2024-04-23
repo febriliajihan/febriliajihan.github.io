@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+<meta charset="UTF-8">
+<title>Rumus</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<p id="hasil"></p>
+</body>
+  <h1>Rumus Persegi</h1>
+  <form id="forminput">
+    <label>Sisi:</label>
+    <input type="number" id="sisi">
+    <br>
+    <button onclick="tampilkanHasil()">hasil</button>
+  </form>
+  <script> 
+    function tampilkanHasil() {
+    var sisi = document.getElementById("sisi").value;
+    var hasil = sisi * sisi; document.write("<p> hasilnya adalah:"+hasil+"</p>")
+    }
+  </script>
+  <hr>
+  <a href="Rumus.html">kembali</a>
+</body>
+</html>

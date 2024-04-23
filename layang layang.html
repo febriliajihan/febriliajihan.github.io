@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>
+Rumus matematika 
+</h2>
+<label> masukkan diagonal 1:</label>
+  <input type="number" id="d1">
+  <br>
+    <label> masukkan diagonal 2:</label>
+   <input type="number" id="d2">
+  <br>
+  <button onclick="tampilkanhasil()">save</button>
+<script>
+ function tampilkanhasil(){
+  var d1 =document.getElementById("d1").value;
+ var d2 =document.getElementById("d2").value;
+  var hasil = (d1 * d2)/2;
+    document.write ("<p>"+hasil+"</p>");
+
+  }
+  </script>
+   <hr>
+  <a href="Rumus.html">kembali</a>
+</html>

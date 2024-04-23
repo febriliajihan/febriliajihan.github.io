@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+<h2>
+Rumus matematika 
+</h2>
+<label> masukkan alas:</label>
+  <input type="number" id="alas">
+  <br>
+    <label> masukkan tinggi:</label>
+   <input type="number" id="tinggi">
+  <br>
+  <button onclick="tampilkanhasil()">save</button>
+<script>
+ function tampilkanhasil(){
+  var alas =document.getElementById("alas").value;
+ var tinggi =document.getElementById("tinggi").value;
+  var hasil = alas * tinggi;
+    document.write ("<p>"+hasil+"</p>");
+
+  }
+  </script>
+   <hr>
+  <a href="Rumus.html">kembali</a>
+</html>
